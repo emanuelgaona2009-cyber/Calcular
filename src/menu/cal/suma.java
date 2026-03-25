@@ -2,23 +2,25 @@ package menu.cal;
 
 import java.util.Scanner;
 
-public class resta {
+public class suma {
     
-    public void restar(){
+    
+   public void sumar(){
+    Scanner entrada = new Scanner(System.in);
         
-        Scanner entrada = new Scanner(System.in);
-        
-        int a, b;
-        
+    int a, b;
+    
         System.out.println("Ingresa valor a: ");
         a = entrada.nextInt();
         
         System.out.println("Ingresa valor b: ");
         b = entrada.nextInt();
         
-        int resta = a-b;
+        int suma = a+b;
                 
-        System.out.println("El resultado de la resta es: "+resta);
-
-    }
+        System.out.println("El resultado de la suma es: "+suma);
+        
+        
+   }
+        
 }
